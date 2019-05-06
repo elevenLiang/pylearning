@@ -13,7 +13,7 @@ def print_line(line_num):
 
 def dengyao(space_num):
     '''
-    打印空格，变成等腰三角形状
+    打印空格
     :param space_num:
     :return: None
     '''
@@ -22,8 +22,8 @@ def dengyao(space_num):
 
 def jiujiu():
     '''
-    九九乘法表
-    等腰打印
+    九九乘法表 v2
+    金字塔形状
     :return:None
     '''
     for o in range(1,10):
