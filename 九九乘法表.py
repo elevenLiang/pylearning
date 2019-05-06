@@ -1,4 +1,5 @@
 #coding:utf-8
+"""
 '''
     九九乘法表
     version 1.0
@@ -24,7 +25,8 @@ def jiujiu():
 jiujiu()
 
 print('==' * 55)
-
+"""
+b = 10
 def print_line(line_num):
     '''
     每次只打印一行九九乘法表
@@ -33,6 +35,7 @@ def print_line(line_num):
     :return: None
     '''
     for i in range(1,line_num + 1):
+        print("  " * (b - line_num),end=" ")
         print('%s * %s = '%(i,line_num),i * line_num,end=" ")
     print()
     return None
@@ -47,3 +50,5 @@ def print_jiujiu():
     return None
 
 print_jiujiu()
+
+
