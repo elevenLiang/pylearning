@@ -1,3 +1,4 @@
+
 #coding:utf-8
 import random
 x = 1
@@ -17,3 +18,5 @@ while 1:
     else:
         print("你是猪吗！！")
 #        print(num)
+
+
